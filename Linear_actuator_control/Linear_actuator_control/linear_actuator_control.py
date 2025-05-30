@@ -30,7 +30,7 @@ def move_actuator(pwm_value):
 
 
 if __name__ == "__main__":
-    move_actuator(2000)  # Example usage with a PWM value of 1500 (half range)
+    move_actuator(1000)  # Example usage with a PWM value of 1500 (half range)
     """for n in range(10):
         for pwm in range(1000, 2001,500 ):  # Example usage with PWM values from 1000 to 2000
             move_actuator(pwm)
